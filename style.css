@@ -88,4 +88,7 @@ body{
     .card{
         width: 350px;
     }
+    body{
+        min-height: 30vh;
+    }
 }
