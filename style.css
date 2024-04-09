@@ -2,17 +2,19 @@
     margin: 0;
     height: 0;
 }
-
 body{
     background-color: rgb(29, 32, 29);
     min-height: 50vh;
     display: flex;
     align-items: center;
 }
+
+
 .container{
     max-width: 500px;
     margin: 0 auto;   
 }
+
 
 .card{
     box-shadow: 1px 1px 20px 2px black ;
@@ -24,27 +26,30 @@ body{
     margin: 0, 1rem;
 }
 
-.content img{
-    margin: 30px;
-    border-radius: 120px;
-    width: 220px;
-    height: 220px;
-}
 
 .content{
     padding: 22px 10px;
     text-align: center;
     color: white;
+} 
+.content img{
+    margin: 4px;
+    border-radius: 120px;
+    width: 220px;
+    height: 220px;
 }
-
-
+.content h1{
+    margin: 2vh;
+    text-align: center;
+    color: white;
+}
 .content h2{
-    margin: 4vh 0vh 7vh 0vh;
+    margin: 2vh 0 5.5vh 0vh;
     font-size: 18px;
+    padding: 22px 10px;
+    text-align: center;
+    color: white;
 }
-
-
-
 
 
 .button{
@@ -57,7 +62,6 @@ body{
     padding: 25px 24px;
     cursor: pointer;
     transition: background-color 0.5s ease;
-    
 }
 .button button a {
     text-decoration: none;
@@ -72,16 +76,6 @@ body{
  .button button:hover{
     background-color:  rgb(52, 63, 56);
 } 
-    
-
-
-
-
-
-
-
-
-
 
 
 @media screen and (max-width: 768px) {
